@@ -7,7 +7,11 @@ const Login = () => {
 
     const submitHandler = (e) =>{
         e.preventDefault()
-        console.log("hello")
+        console.log("email is" ,email)
+        console.log("password is" ,password)
+
+        setEmail("")
+        setPassword("")
     }
 
   return (
